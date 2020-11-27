@@ -1,3 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+/* Utility Styles */
+
+
+
+body {
+   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+   font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container {
+   max-width: 375px;
+   height: 100vh;
+   
+}
+
+.card-container {
+   background: white;
+   margin: 120px 25px 25px;
+   padding: .5em; 
+   border-radius: 25px;
+   background-image: url('./images/bg-pattern-mobile.svg');    
+   position: relative;
+}
+
+.lg-img {
+   position: absolute;
+   top: -115px;
+  
+}
+
+#faq {
+   padding: 10px;
+   
+}
+
+#faq h1 {
+   text-align: center;
+   font-weight: 700;
+}
+
+.faq-container {
+   margin-top: 15px;
+   position: relative;
+   bottom: 80px;
+   
+}
+
+.faq-container .btn {
+   border: 0;
+}
+
+.lg-img {
+   position: relative;
+  
+}
+
+
 
