@@ -27,45 +27,40 @@ body {
 }
 
 .card-container {
-   background: white;
+   background: #fff;
    margin: 120px 25px 25px;
    padding: .5em; 
    border-radius: 25px;
-   background-image: url('./images/bg-pattern-mobile.svg');    
    position: relative;
 }
 
-.lg-img {
+/* .lg-img {
    position: absolute;
    top: -115px;
   
-}
-
-#faq {
-   padding: 10px;
-   
-}
-
-#faq h1 {
-   text-align: center;
-   font-weight: 700;
-}
+} */
 
 .faq-container {
    margin-top: 15px;
    position: relative;
    bottom: 80px;
-   
+}
+.faq-container #faq-heading{
+   text-align: center;
+   font-weight: 700;
 }
 
 .faq-container .btn {
    border: 0;
 }
 
-.lg-img {
+#mobile-desk {
    position: relative;
-  
+   top: -115px;  
 }
 
-
-
+#mobile-shadow{
+   position: absolute;
+   top: 2px;
+   left: 35px;
+}
